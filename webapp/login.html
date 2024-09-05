@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	body {
+		background-color: aqua;
+	}
+	
+	div{
+		margin: auto;
+		margin-top:100px;
+		height: 400px;
+		width: 400px;
+		border: 2px solid white ;
+		background-color: white;
+		border-radius: 10px;
+		
+	}
+	h1{
+	color: red;
+	text-align: center;
+	}
+	input {
+		width: 250px;
+		height: 20px;
+		border:white;
+		background-color:rgb(224, 216, 216);
+		border-radius: 5px;
+		margin-left: 60px;
+}
+
+label {
+	font-weight: bold;
+	margin-left: 60px
+}
+
+
+h3{
+	text-align: center;
+
+}
+button {
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	margin-left: 120px;
+	border-radius: 50px;
+}
+
+#btn1{
+	background-color: blue;
+	border: blue;
+	}
+	#btn2{
+	background-color: green;
+	border: green;
+	}
+
+
+
+
+
+	
+</style>
+
+
+</head>
+<body>
+	<div>
+		<h1>LOGIN</h1>
+		<form action="log" method="post">
+			<label>EMAIL:</label><br>
+			<input type="email" name="em"><br><br>
+			<label>PASSWORD:</label><br>
+			<input type="password" name="pwd"><br><br>
+			<button id="btn2">Login</button>
+		</form>
+		<h3>Don't have account?</h3>
+		<form action="account.html">
+			<button id="btn1">Create Account</button>
+		</form>
+	</div>
+	
+</body>
+</html>

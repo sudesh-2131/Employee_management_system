@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	body {
+		background-color: aqua;
+	}
+	h1{
+	color: red;
+	text-align: center;
+	}
+	.div1{
+		width: 500px;
+		height: 900px;
+		border: 2px solid white;
+		border-radius:10px;
+		background-color: white;
+		margin: auto;
+		
+	}
+	.lab {
+		font-weight: bold;
+		margin-left: 50px;
+		
+}
+	.inp {
+		width: 400px;
+		height:25px;
+		background-color:rgb(224, 216, 216);
+		border: rgb(224, 216, 216);
+		border-radius: 5px;
+		margin-left: 50px;
+		
+		
+}
+.div2{
+ margin-left: 50px;
+}
+	button {
+	width: 300px;
+	height:50px;
+	margin-left: 100px;
+	border-radius: 50px;
+	font-size: 20px;
+	color: white;
+	
+}
+	
+	h3{
+	 text-align: center;
+	 
+	}
+	#btn1{
+	background-color: blue;
+	border: blue;
+	}
+	#btn2{
+	background-color: green;
+	border: green;
+	}
+
+</style>
+</head>
+
+<body>
+	<h1>EMPLOYEE DETAILS</h1>
+	<div class="div1">
+		<form action="created" method="post">
+			<label class="lab">EMPLOYEE ID:</label><br>
+			<input type="text" name="eid" class="inp"><br><br>
+			<label class="lab">NAME:</label><br>
+			<input type="text" name="en" class="inp"><br><br>
+			<label class="lab">EMAIL:</label><br>
+			<input type="email" name="em" class="inp"><br><br>
+			<label class="lab">CONTACT NO.:</label><br>
+			<input type="text" name="cn" class="inp"><br><br>
+			<label class="lab">DATE OF BIRTH:</label><br>
+			<input type="date" name="dob" class="inp"><br><br>
+			<label class="lab">GENDER:</label><br>
+			<div class="div2">
+				<input type="radio" name="gen" value="Male"><label>Male</label>
+				<input type="radio" name="gen" value="Female"><label>Female</label>
+				<input type="radio" name="gen" value="Other"><label>Other</label><br><br>
+			</div>
+			
+			<label class="lab">DEGINATION:</label><br>
+			<input type="text" name="des" class="inp"><br><br>
+			<label class="lab">DEPARTMENT:</label><br>
+			<input type="text" name="dep" class="inp"><br><br>
+			<label class="lab">DATE OF JOINING:</label><br>
+			<input type="date" name="doj" class="inp"><br><br>
+			<label class="lab">ADDRESS:</label><br>
+			<input type="text" name="add" class="inp"><br><br>
+			<label class="lab">PASSWORD:</label><br>
+			<input type="password" name="pwd" class="inp"><br><br>
+			<button id="btn1">Create Account</button>
+		</form>
+		<h3>Already have account?</h3>
+			<form action="login.html">
+				<button id="btn2">Login</button>
+			</form>
+	</div>
+
+	
+</body>
+</html>
